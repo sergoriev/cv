@@ -12,7 +12,7 @@ body::-webkit-scrollbar-thumb,
 .toTopButton,
 #style-switcher .toggle-switcher,
 .progress-wrapper .progress .progress-bar {
-	background: #4CAF50;
+	background: #6909ab;
 }
 
 a:hover,
@@ -32,7 +32,7 @@ html body .k-nav-links li.active a,
 html body .k-nav-links a:hover,
 .k-nav.k-nav-fixed .k-nav-links li.active a,
 .header-phones .icon {
-	color: #4CAF50;
+	color: #fff;
 }
 
 .btn-primary:focus,
@@ -47,15 +47,13 @@ html body .k-nav-links a:hover,
 .first-section .list-inline a,
 .iso .button:hover,
 .iso .button.is-checked {
-	border-color: #4CAF50;
+	border-color: #6909ab;
 }
 
 .list-icons li .icon {
-  fill: #4CAF50;
+  fill: #6909ab;
 }
 
 .progr-bar svg path:last-child {
-  stroke: #4CAF50;
+  stroke: #6909ab;
 }
-
-
