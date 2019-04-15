@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Business requirements - Russian post modification opportunity</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Business requirements";
+    var mkdocs_page_input_path = "business_requirements.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Russian post modification opportunity</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Start</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../business_case/">Business case</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Business requirements</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#russian-post-service-modification">Russian Post Service Modification</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#version-and-approvals">Version and approvals</a></li>
+        
+            <li><a class="toctree-l3" href="#project-details">Project Details</a></li>
+        
+            <li><a class="toctree-l3" href="#overview">Overview</a></li>
+        
+            <li><a class="toctree-l3" href="#key-assumptions-and-constraints">Key assumptions and constraints</a></li>
+        
+            <li><a class="toctree-l3" href="#use-cases">Use cases</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#use-case-diagram">Use case diagram</a></li>
+    
+
+    <li class="toctree-l2"><a href="#business-requirements">Business requirements</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#generalbase">General/Base</a></li>
+        
+            <li><a class="toctree-l3" href="#security">Security</a></li>
+        
+            <li><a class="toctree-l3" href="#usability">Usability</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#appendixes">Appendixes</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#appendix-a-as-is-to-be-diagrams">Appendix A - "As Is" - "To Be" Diagrams</a></li>
+        
+            <li><a class="toctree-l3" href="#appendix-b-data-flow">Appendix B - Data Flow</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Russian post modification opportunity</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Business requirements</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="russian-post-service-modification">Russian Post Service Modification</h1>
+<p>Version 1.0
+02/13/2019</p>
+<hr />
+<h2 id="version-and-approvals">Version and approvals</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Date</th>
+<th>Revised by</th>
+<th>Reason for change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>12/03/2019</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="project-details">Project Details</h2>
+<table>
+<thead>
+<tr>
+<th>Project Name</th>
+<th>"Russian Post service modification"</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project type</td>
+<td>New Initiative</td>
+</tr>
+<tr>
+<td>Project start date</td>
+<td>02/10/2018</td>
+</tr>
+<tr>
+<td>Project end date</td>
+<td>05/10/2018</td>
+</tr>
+<tr>
+<td>Project Sponsor</td>
+<td>Federal state unitary enterprise "Russian Post"</td>
+</tr>
+<tr>
+<td>Primary driver</td>
+<td>Deputy CEO Emelchenkov Sergey</td>
+</tr>
+<tr>
+<td>Secondary driver</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>Project manager</td>
+<td>John Doe</td>
+</tr>
+</tbody>
+</table>
+<h2 id="overview">Overview</h2>
+<h3 id="document-resources">Document resources</h3>
+<ol>
+<li><a href="https://fc.russianpost.ru/Download/AboutRussianPost/russianpost_ann_report2016.pdf" title="2016AR">2016 AR</a></li>
+<li><a href="https://fc.russianpost.ru/Download/AboutRussianPost/russianpost_ann_report2017.pdf" title="2017AR">2017 AR</a></li>
+<li><a href="http://portal.ncnd.mts.by/nf/?time_stamp=1554050418738">Order of the Government of Russia of June 28, 2002 No. 885-p</a></li>
+<li><a href="https://www.pochta.ru">Russian Post official website</a></li>
+<li><a href="https://fc.russianpost.ru/Download/AboutRussianPost/charter/02_20_05_2005.pdf">Changes from 20.05.2005 in the Charter of FSUE “Russian Post”</a></li>
+</ol>
+<p><img alt="" src="" /></p>
+<h3 id="definitions">Definitions</h3>
+<ul>
+<li><strong>Post</strong> (Russian Post, RP) -- Client company</li>
+<li><strong>CAO</strong> – Complex Action for Optimization (automation)</li>
+<li><strong>Client</strong> – client(-s), who use RP services</li>
+<li><strong>CSI</strong> – Customer Satisfaction Index</li>
+</ul>
+<h3 id="project-overview-and-background">Project overview and background</h3>
+<p>FSUE Russian Post – Russian state post operator with the largest subsidiary network (41 901 post offices) and 351 753 employees.In 2015, Russian Post entered the list of strategic enterprises of Russia. Unfortunately CSI as well as the company's image constantly declines. Also, clients believe that processes on post offices are outdated, and there is a need for some changes.</p>
+<p>The main goal of this project is to increase the company reputation by implementing the following:
+- Use high-tech devices to reduce the burden on employees;
+- Reduce queues in post offices;
+- Make visiting post offices a matter of not more than 5 minutes.</p>
+<p>It will be possible with various CAO, such as:
+1. E-queue with an (paid) opportunity to book certain time slots for getting/sending parcels.
+2. Parcel delivery with <strong>QR</strong>-codes, pre-generated in PR application, through special vending machines.
+3. Use notifications via SMS, different messengers (<em>Viber</em>, <em>Telegram</em>, etc.) instead of paper-notifications.
+4. Live-stream of queue load in certain post offices.
+5. Install feedback terminals.</p>
+<h3 id="project-stakeholders">Project stakeholders</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Stakeholders</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Deputy CEO Emelchenkov Sergey</td>
+</tr>
+<tr>
+<td>2</td>
+<td>John Doe</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Jane Doe</td>
+</tr>
+</tbody>
+</table>
+<h2 id="key-assumptions-and-constraints">Key assumptions and constraints</h2>
+<h3 id="assumptions">Assumptions</h3>
+<ol>
+<li>After implementing SMS and messenger notifications there will be no need in paper notices.</li>
+<li>Paid e-queue and ranking parcels with QR codes will significantly decrease operation time, increase CSI and NPS and will generate additional revenue to company.</li>
+</ol>
+<h3 id="constraints">Constraints</h3>
+<ol>
+<li>Customers may have difficulty in using the vending machine for the first time.</li>
+<li>Some part of RP's client can be dissatisfied with new notifications system.</li>
+</ol>
+<h2 id="use-cases">Use cases</h2>
+<p>This section containt Use cases of improvment RP system.</p>
+<h3 id="use-case-003">Use Case - 003</h3>
+<h4 id="this-use-case-describes-the-way-user-posts-client-will-fill-form-for-sending-parcel-in-certain-date">This use case describes the way user (post's client) will fill form for sending parcel in certain date.</h4>
+<table>
+<thead>
+<tr>
+<th>Actors</th>
+<th>User</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pre-conditions</td>
+<td>User authorized in russian post system.</td>
+</tr>
+<tr>
+<td>Post-conditions</td>
+<td>Visit application registered.</td>
+</tr>
+<tr>
+<td>Normal course</td>
+<td>1. User fills all necessary fields (name, address, etc.). 2. User chooses post office, time and date of visiting. 3. User confirms correctness of entered data. 4.System requires to choose payment method 5. User pays for registering 6. System notifies that user's application registered.</td>
+</tr>
+<tr>
+<td>Alternative course</td>
+<td>1. User fills all necessary fields (name, address, etc.) 2. User chooses post office, time and date of visiting 3.System notifies that choosed time and date are unavailable 4. System returns to p.2 condition</td>
+</tr>
+<tr>
+<td>Exceptions</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Includes</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Priority</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Frequency of Use</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>Business Rules</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Special requirements</td>
+<td>User needs to have their own account on RP system.</td>
+</tr>
+<tr>
+<td>Assumptions</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Notes and Issues</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="use-case-011">Use Case - 011</h3>
+<h4 id="this-use-case-describes-the-way-user-posts-client-will-act-in-pr-system-to-get-parcel-which-less-than-xy-where-x-size-weight-of-parcel-y-value-in-money-equivalent">This use case describes the way user (post's client) will act in PR system to get parcel, which less than X,Y (where X - size (weight) of parcel, Y - value in money equivalent).</h4>
+<table>
+<thead>
+<tr>
+<th>Actors</th>
+<th>User</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preconditions</td>
+<td>1. User authorized in russian post system. 2. Parcel should be arrived in post office.</td>
+</tr>
+<tr>
+<td>Postconditions</td>
+<td>Parcel loaded in vending machine.</td>
+</tr>
+<tr>
+<td>Normal course</td>
+<td>1.User chooses option "Take parcel" in post office 2.System, according to User's profile, suggests take parcel in their post office (linked to his addres). 3.User accepts suggested post office. 4. System offers to choose available parcels 5.User chooses payment method. 6. User confirms payment. 7.Operator of selected post office gets request for loading vending machnine with User's parcel. 8.User receives QR code via RP system.</td>
+</tr>
+<tr>
+<td>Exceptions</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Includes</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Priority</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Frequency of Use</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>Business Rules</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Special requirements</td>
+<td>User need to have their own account on RP system. User need paying card be linked to his account.</td>
+</tr>
+<tr>
+<td>Assumptions</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Notes and Issues</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="use-case-013">Use Case - 013</h3>
+<h4 id="this-use-case-describes-the-way-user-posts-client-will-act-in-pr-system-to-get-parcel-which-more-than-xy-where-x-size-weight-of-parcel-y-value-in-money-equivalent">This use case describes the way user (post's client) will act in PR system to get parcel, which more than X,Y (where X - size (weight) of parcel, Y - value in money equivalent).</h4>
+<table>
+<thead>
+<tr>
+<th>Actors</th>
+<th>User</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preconditions</td>
+<td>1. User authorized in russian post system. 2. Parcel should be arrived in post office.</td>
+</tr>
+<tr>
+<td>Postconditions</td>
+<td>Parcel sent to checkout window.</td>
+</tr>
+<tr>
+<td>Normal course</td>
+<td>1.User choose option "Take parcel" in post office. 2.System, according to User's profile, suggests take parcel in their post office (linked to their addres). 3.User accepts suggested post office. 4. System offers to choose available parcels 5.User choose payment method 6. User confirms payment. 7.Operator of selected post office gets request for transfering User's parcel to checkout window 8.User receives QR code via RP system.</td>
+</tr>
+<tr>
+<td>Alternative course</td>
+<td></td>
+</tr>
+<tr>
+<td>Exceptions</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Includes</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Priority</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Frequency of Use</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>Business Rules</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Special requirements</td>
+<td>Look <a href="#uc-011">UC-011</a></td>
+</tr>
+<tr>
+<td>Assumptions</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Notes and Issues</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="use-case-023">Use Case - 023</h3>
+<h4 id="this-use-case-describes-the-way-admin-post-office-manager-will-look-through-clients-requests-on-post-office-visit">This use case describes the way admin (post office manager) will look through client's requests on post office visit.</h4>
+<table>
+<thead>
+<tr>
+<th>Actors</th>
+<th>SuperUser</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preconditions</td>
+<td>SuperUser authorized in russian post system with admin access level.</td>
+</tr>
+<tr>
+<td>Postconditions</td>
+<td>System allows admin to look through visit requests.</td>
+</tr>
+<tr>
+<td>Normal course</td>
+<td>1. Admin chooses option "confirmed visits". 2.Admin chooses option "confirmed to send" or "parcels, available to get". 3. System allows to choose days needed to be checked. 4. Admin chooses needed dates. 5. System shows all visit requests for chosed period, sorted by request date (descending).</td>
+</tr>
+<tr>
+<td>Exceptions</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Includes</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Priority</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>Frequency of Use</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>Business Rules</td>
+<td>BR1</td>
+</tr>
+<tr>
+<td>Special requirements</td>
+<td>Access to this feature only possible with admin access level.</td>
+</tr>
+<tr>
+<td>Assumptions</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Notes and Issues</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="use-case-diagram">Use case diagram</h1>
+<h1 id="business-requirements">Business requirements</h1>
+<p>The following sections document the various business requirements of this project. The requirements in this document are prioritized as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Rating</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Critical</td>
+<td>This requirement is critical to the success of the project. The project will not be possible without this requirement.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>High</td>
+<td>This requirement is high priority, but the project can be implemented at a bare minimum without this requirement.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Medium</td>
+<td>This requirement is somewhat important, as it provides some value but the project can proceed without it.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Low</td>
+<td>This is a low priority requirement, or a “nice to have” feature, if time and cost allow it.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Future</td>
+<td>This requirement is out of scope for this project, and has been included here for a possible future release.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="generalbase">General/Base</h2>
+<table>
+<thead>
+<tr>
+<th>REQ#</th>
+<th>Priority</th>
+<th>Description</th>
+<th>Rationale</th>
+<th>Use case #</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BReq1</td>
+<td>2</td>
+<td>Only stuff with admin access level can apply changes in client's requests.</td>
+<td>-</td>
+<td>UC-011, UC-012</td>
+</tr>
+<tr>
+<td>BReq2</td>
+<td>3</td>
+<td>Client should have an opportunity to look though all his confirmed and finished requests for all time.</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="security">Security</h2>
+<table>
+<thead>
+<tr>
+<th>REQ#</th>
+<th>Priority</th>
+<th>Description</th>
+<th>Rationale</th>
+<th>Use case #</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SReq1</td>
+<td>1</td>
+<td>After QR code has been scaned, it should be removed from database.</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>SReq2</td>
+<td>3</td>
+<td>Employees passwords should change at least 1 time in a month.</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>SReq3</td>
+<td>2</td>
+<td>After operator received vending machine load request, he need to confirm this in a system.</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usability">Usability</h2>
+<table>
+<thead>
+<tr>
+<th>REQ#</th>
+<th>Priority</th>
+<th>Description</th>
+<th>Rationale</th>
+<th>Use case #</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UReq1</td>
+<td>2</td>
+<td>4 of 5 novice user should perform "Get parcel" feature less than 4 minutes.</td>
+<td>-</td>
+<td>UC-011,UC-012</td>
+</tr>
+<tr>
+<td>UReq2</td>
+<td>4</td>
+<td>Client need to have convinient access to "Live translation of neccessary post office" feature from any device.</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h1 id="appendixes">Appendixes</h1>
+<h2 id="appendix-a-as-is-to-be-diagrams">Appendix A - "As Is" - "To Be" Diagrams</h2>
+<p><img alt="" src="/img/as_is.png" />
+<em>"As is" state</em></p>
+<p>"As is" description:
+1. Client receives post notification.
+2. As usual, client takes queue ticket in post office via queue terminal (still not in every office).
+3. Operator looks for parcel in database.
+4. Operator searches for the parcel in post office. 
+4.1 Client checks parcel content (optional).
+5. Client signs post notification.
+6. Operator gives parcel to client.</p>
+<p>Current state of issues:
+- It is not very practical to use paper notification - they could be lost, damaged. This procces also includes the fact that postmen need to bring this notification to a client, and human factor issues;
+- If post notification isn't acquired, parcel can stay in office for a long period of time (relevant for goods from internet shops);
+- Uneven workload of the department during the month, which complicates the assessment of the time that can be spent in the queue at the office;
+- As usual client don't have opportunity to leave any feedback fast and easy, if they were dissatisfied with operator's service.</p>
+<p><img alt="" src="/img/tobe2.png" />
+<em>"To be" state</em></p>
+<p>"To be" state description:
+1. Client receives post notification via SMS or a messenger.
+2. Client authorizes in RP's app.
+3. Client chooses payment method and pays to take parcel in needed time.
+    3.1 If parcel less than X,Y (X - size of parcel, Y - value in money amount), operator sends parcel in vending machine .
+    3.2 If parcel more than X,Y operator takes it to checkout window.
+    3.3 RP's system generates special QR code linked to client's parcel.
+4. Client receives this special QR code.
+5. In post office client scanning QR code:
+    5.1 At checkout window, if parcel more than X,Y, and takes it.
+    5.2 In a vending machine, if parcel less than X,Y and takes it.
+6. (optional) Client leaves feedback via feedback terminal.</p>
+<p>"To be" state pros:
+- Client receives notification just in time when parcel came to post office.
+- Client still has an option to take his parcel in old way (wait in a queue), but new option can generate extra revenue.
+- So, there is no need to wait in a queue anymore, if client wants to take his parcel at a certain time.
+- Client can also leave feedback via feedback terminal, which gives Post offices managers extra information of employees work.</p>
+<h2 id="appendix-b-data-flow">Appendix B - Data Flow</h2>
+<p><img alt="" src="/img/dataflow.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../business_case/" class="btn btn-neutral" title="Business case"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../business_case/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
